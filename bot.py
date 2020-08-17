@@ -11,7 +11,7 @@ def sendmsg(message,text):
 
 @bot.message_handler(commands=['start'])
 def startmsg(message):
-    bot.send_message(message.chat.id,'<b>Selamat Datang Di Jejaka Bot Telgram</b>\nSIlahkan Ketikkan <b>Hello</b> Dan dapatkan Balasan Dari Bot Ini',parse_mode='HTML')
+    bot.send_message(message.chat.id,'<b>Selamat Datang Di Poter Bot Telgram</b>\nSIlahkan Ketikkan <b>Hello</b> Dan dapatkan Balasan Dari Bot Ini',parse_mode='HTML')
 
 @bot.message_handler(func=lambda msg: msg.text is not None)
 def reply_to_message(message):
